@@ -186,7 +186,7 @@ typedef enum {
 struct usbg_config_attrs
 {
 	uint8_t bmAttributes;
-	uint8_t bMaxPower;
+	uint16_t bMaxPower;
 };
 
 /**

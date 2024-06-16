@@ -526,7 +526,7 @@ static int usbg_parse_config_attrs(const char *path, const char *name,
 
 	ret = usbg_read_dec(path, name, "MaxPower", &buf);
 	if (ret == USBG_SUCCESS) {
-		c_attrs->bMaxPower = (uint8_t)buf;
+		c_attrs->bMaxPower = (uint16_t)buf;
 
 		ret = usbg_read_hex(path, name, "bmAttributes", &buf);
 		if (ret == USBG_SUCCESS)
