@@ -31,3 +31,5 @@ Makefile.in
 /doxygen.cfg
 /libusbgx.pc
 /LibUsbgxConfig.cmake
+*.swp
+configure~
